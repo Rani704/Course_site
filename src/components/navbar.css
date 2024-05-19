@@ -1,0 +1,26 @@
+#bar{
+width: Fixed 1,440px;
+height:  96px;
+padding: 24px 128px 24px 128px;
+gap: 0px;
+border: 0px 0px 1px 0px;
+justify-content: space-between;
+opacity: 0px;
+background: rgba(255, 255, 255, 1);
+
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: Fixed (1,440px)px;
+height: 48px;
+top: 95px;
+padding: 12px 10px 12px 10px;
+gap: 20px;
+opacity: 0px;
+background: var(--Woodsmoke-900, rgba(59, 59, 62, 1));
+color: rgba(207,208,210,1);
+font: Poppins;
+font-size: 16px;
+}

@@ -1,0 +1,63 @@
+.page3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#work{
+    padding:30px ;
+    width:  1,094px;
+height: 394px;
+gap: 24px;
+opacity: 0px;
+
+}
+.work-list{
+    display: inline-grid;
+    grid-template-columns: repeat(3,minmax(250px,1fr));
+    grid-gap:40px;
+    margin-top:50px;
+}
+.work-list div{
+     background: rgba(249, 235, 252, 1);
+    padding:40px;
+    font-size:13px;
+    font-weight: 300;
+    border-radius:10px;
+    
+}
+h1.subtitle{
+    text-align: center;
+}
+.companies {
+    display: inline-grid;
+    grid-template-columns: repeat(5,minmax(250px,1fr));
+    grid-gap:40px;
+    margin-top:50px;
+   
+}
+.companies div{
+    width: 257px;
+height:  133px;
+padding: 10px ;
+gap: 10px;
+border-radius: 24px ;
+opacity: 0px;
+background: white;
+
+
+}
+#hire{
+    /* margin-top: 250px;
+    margin-bottom: 250px; */
+ 
+    background: rgba(255, 252, 234, 1);
+    width: 1,440px;
+height: 329px;
+top: 3293px;
+padding: 48px 0px 0px 0px;
+gap: 28px;
+opacity: 0px;
+
+}
+
