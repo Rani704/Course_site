@@ -1,26 +1,59 @@
 #bar{
-width: Fixed 1,440px;
-height:  96px;
-padding: 24px 128px 24px 128px;
-gap: 0px;
-border: 0px 0px 1px 0px;
-justify-content: space-between;
-opacity: 0px;
-background: rgba(255, 255, 255, 1);
-
-}
-#header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: Fixed (1,440px)px;
-height: 48px;
-top: 95px;
-padding: 12px 10px 12px 10px;
-gap: 20px;
-opacity: 0px;
-background: var(--Woodsmoke-900, rgba(59, 59, 62, 1));
-color: rgba(207,208,210,1);
-font: Poppins;
-font-size: 16px;
-}
+    width: Fixed 1,440px;
+    height:  96px;
+    padding: 24px 128px 24px 128px;
+    gap: 0px;
+    border: 0px 0px 1px 0px;
+    justify-content: space-between;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+    
+    }
+    #header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: Fixed (1,440px)px;
+    height: 48px;
+    top: 95px;
+    padding: 12px 10px 12px 10px;
+    gap: 20px;
+    opacity: 0px;
+    background: var(--Woodsmoke-900, rgba(59, 59, 62, 1));
+    color: rgba(207,208,210,1);
+    font: Poppins;
+    font-size: 16px;
+    }
+    
+    .nav1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 100px 0 100px;
+    }
+    
+    .nav-buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+    }
+    
+    .nav-buttons button{
+        width: 7rem;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    
+    .login-button{
+        background: white;
+        border: 1px solid transparent;
+        font-weight: 600;
+    }
+    
+    .signup-button{
+        background:  rgb(211, 14, 204);
+        color: white;
+        border: 1px solid transparent;
+    }
